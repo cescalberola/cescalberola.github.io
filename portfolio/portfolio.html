@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <title>Francesc Alberola - biografía</title>
+    <link rel="preload" href="/styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+        <i class="uil uil-arrow-up"></i>
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="/index.html" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="/biografia/biografia.html" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> Biografía
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="/portfolio/portfolio.html" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="/contacto.html" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contacto
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Portfolio</h2><br>
+      <span class="section__subtitle">Imágenes</span>
+      <div class="portfolio__container container grid">
+        <div class="portfolio__fotos">
+        <img
+          src="/portfolio/assets_port/project1.jpeg"
+          alt=""
+          class="portfolio__img"
+        />
+        <img
+          src="/portfolio/assets_port/project2.webp"
+          alt=""
+          class="portfolio__img"
+        />
+        </div>
+        <div class="portfolio__data">
+          <p class="portfolio__description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+            consectetur praesentium suscipit natus nobis animi repellat, quidem
+            laborum quasi cumque ex reiciendis eius, accusamus distinctio
+            dolorem. Cupiditate tenetur aliquid veritatis.
+          </p>
+        
+          <span class="section__subtitle">Vídeo</span>
+          <div class="portfolio__container container grid">
+          <video class="port__video" controls src="/portfolio/assets_port/video.mp4" type="video/mp4"></video><br>
+          <p class="portfolio__description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+            consectetur praesentium suscipit natus nobis animi repellat, quidem
+            laborum quasi cumque ex reiciendis eius, accusamus distinctio
+            dolorem. Cupiditate tenetur aliquid veritatis.
+          </p>
+          <span class="section__subtitle">Sonido</span>
+          <audio class="port__audio" controls src="/portfolio/assets_port/sonido.mp3"></audio>
+          <p class="portfolio__description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+            consectetur praesentium suscipit natus nobis animi repellat, quidem
+            laborum quasi cumque ex reiciendis eius, accusamus distinctio
+            dolorem. Cupiditate tenetur aliquid veritatis.
+          </p>
+        </div>
+        </div>
+      </div>
+    </section>
+    <script src="/main.js"></script>
+  </body>
+</html>
